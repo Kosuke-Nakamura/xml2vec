@@ -17,6 +17,7 @@ BeautifulSoup4
 
 ### xml2xml.py
 xml2vecを使ってMusicXMLを読み取り，抽出を行い，それをそのまま用いてMusicXMLを生成するテスト用プログラム
+動作の確認や使用例として
 
 
 ## 2. 備考
