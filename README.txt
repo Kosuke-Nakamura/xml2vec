@@ -9,6 +9,11 @@ xml2vec.py
 	Requirement
 	 BeautifulSoup
 
+xml2npy.py
+
+	xml2vecを用いてMusicXML読み取ってメロディを抽出し，これをNumpy配列に変換するプログラム
+	縦が音の高さに，横が時間に対応し，音がある部分に1，ない部分に0が入った配列を生成する	
+
 xml2xml.py
 
 	xml2vecを使ってMusicXMLを読み取り，一番上のパートとコード進行を抽出
