@@ -9,8 +9,6 @@ MusicXMLから曲情報と主旋律とコード進行を抽出
     --> 指定できるように
 テンション・ノートのタイプaddにしか対応していない
     --> alter, subにも対応する
-抽出した結果はNote，Chordクラスのリスト，辞書である
-    --> Numpy配列などに変換できるようにする
 """
 
 from bs4 import BeautifulSoup
@@ -34,6 +32,9 @@ class PieceInfo:
                    {小節番号:[拍子の分子, 拍子の分母], ...}
     divisions   -- この値を4分音符の長さとする
                    {Part-ID:値[int], ...}
+    length      -- 拍数 * divisions [int]
+    upbeat      -- 冒頭の弱起（アウフタクト）の有無 [bool]
+    upbeat_l    -- 弱起の長さ
     """
     
     # デフォルト値
@@ -48,12 +49,22 @@ class PieceInfo:
     
     # コンストラクタ
     def __init__(self):
-        self.measure_num = 1
+        # 小節数 (0小節目は数えない)
+        self.measure_num = 0
+        # パート数
         self.part_num    = 1
-        self.tempo       = {1:[PieceInfo.BPM, PieceInfo.B_UNIT, PieceInfo.S_TEMPO]} # {小節番号:[表記のテンポ, 表記に用いる音符, 再生時のBPM], ...}
-        self.key         = {1:{1:PieceInfo.FIFTHS}} # {パートID:{小節番号:値, ...}, ...}
-        self.time        = {1:[PieceInfo.BEATS, PieceInfo.BEAT_TYPE]} # {小節番号:[拍子の分子, 拍子の分母], ...}
-        self.divisions   = {1:PieceInfo.DIVISIONS} # {パートID:値, ...}
+        # {小節番号:[表記のテンポ, 表記に用いる音符, 再生時のBPM], ...}
+        self.tempo       = {1:[PieceInfo.BPM, PieceInfo.B_UNIT, PieceInfo.S_TEMPO]}
+        # {パートID:{小節番号:値, ...}, ...}
+        self.key         = {1:{1:PieceInfo.FIFTHS}}
+        # {小節番号:[拍子の分子, 拍子の分母], ...}
+        self.time        = {1:[PieceInfo.BEATS, PieceInfo.BEAT_TYPE]} 
+        # {パートID:値, ...}
+        self.divisions   = {1:PieceInfo.DIVISIONS}
+        self.length      = self.divisions[1] * PieceInfo.BEATS
+        # 弱起の有無と長さ
+        self.upbeat      = False
+        self.upbeat_l    = 0
         
     # 調の設定
     # part:パートid[int], measure:小節番号[int], fifth:調を表す値[int]
@@ -76,6 +87,24 @@ class PieceInfo:
     def set_divisions(self, part, value):
         self.divisions[part] = value
 
+    # upbeatの設定
+    # 必ず楽譜要素抽出の最初に行う
+    def set_upbeat(self, flag=True):
+        self.upbeat = flag
+        
+        # {小節番号:[表記のテンポ, 表記に用いる音符, 再生時のBPM], ...}
+        self.tempo       = {0:[PieceInfo.BPM, PieceInfo.B_UNIT, PieceInfo.S_TEMPO]}
+        # {パートID:{小節番号:値, ...}, ...}
+        self.key         = {1:{0:PieceInfo.FIFTHS}}
+        # {小節番号:[拍子の分子, 拍子の分母], ...}
+        self.time        = {0:[PieceInfo.BEATS, PieceInfo.BEAT_TYPE]} 
+        # {パートID:値, ...}
+        self.divisions   = {0:PieceInfo.DIVISIONS}
+
+    def set_ub_length(self, length):
+        self.upbeat_l = length
+    
+    
 # 音符クラス
 class Note:
     """ Musical Note Description
@@ -87,7 +116,8 @@ class Note:
     octave   : 音域[int]
     duration : 長さ[int]
     time     : 時刻[int]
-    time_mod : 連符の一つであるかどうか
+    dot      : 付点の有無 [bool]
+    time_mod : 連符の一つであるかどうか [bool]
     """
 
     # 階名+オクターブ表記をMIDI規格のnote numberになおすためのdictionary
@@ -95,12 +125,13 @@ class Note:
 
     # コンストラクタ
     # st[str], alt[int], octv[int], t[int], dur[int], mod[bool]
-    def __init__(self, st, alt, octv, dur, t, mod=False):
+    def __init__(self, st, alt, octv, dur, dot, t, mod=False):
         self.step     = st   # 階名
         self.alter    = alt  # 変化記号
         self.octave   = octv # 音域
         self.time     = t    # 時刻
         self.duration = dur  # 長さ
+        self.dot      = dot  # 付点の有無
         self.time_mod = mod  # Time Modification(連符)の一つであるかどうか
 
     # 個の音をMIDI規格のnote numberに変換した値を返す
@@ -108,10 +139,10 @@ class Note:
     def get_midi_num(self, yamaha=False):
         # 基本は国際式
         if not yamaha:
-            return 12 * (self.octave + 1) + step2num[self.step] + self.alter
+            return 12 * (self.octave + 1) + Note.step2num[self.step] + self.alter
         # yamaha=1ならyamaha式
         else:
-            return 12 * (self.octave + 2) + step2num[self.step] + self.alter
+            return 12 * (self.octave + 2) + Note.step2num[self.step] + self.alter
 
     # durationと引数divisionsから音符の見た目の種類を返す
     # 64分音符から2倍全音符まで対応
@@ -151,7 +182,7 @@ class Note:
         elif rate >= 4.0 and rate < 16.0:   # 倍全音符以上
             return "breve"
         else:
-            print "Error! Cannnot process the notes whose duration are %d on divisions=%d" % self.duration, divisions
+            print "Error! Cannnot process the notes whose duration are %d with divisions=%d" % self.duration, divisions
             quit()
         
             
@@ -246,33 +277,46 @@ def extract_music(soup):
         # 主旋律はこのパートっていう指定ができるようにしてもいいかもしれない
         if p["id"] == "P1": 
 
+            # 0小節目の処理に用いるフラグ
+            impl=False
+            
             # 小節ごとに
             for m in p.find_all("measure"):
 
                 cur_num = int(m["number"]) # 現在の小節番号
+
+                # 0小節目の処理
+                if impl:
+                    piece.set_ub_length(cur_time)
+                    impl = False
+                if cur_num == 0 and "implicit" in m.attrs:
+                    if m["implicit"] == "yes":
+                        piece.set_upbeat(flag=True)
+                        impl=True
                 
                 # 属性，テンポ，コード，音符，巻き戻し
                 for content in m.find_all({"attributes", "direction", "harmony", "note", "backup"}):
 
                     # 巻き戻し
-                    if content.name == "backup":
-                        cur_time -= int(content.duration.string)
-                              
+                    # 単音しか扱わないので現在は無視する
+                    # if content.name == "backup":
+                    #     cur_time -= int(content.duration.string)
+                    
                     # 属性
                     if content.name == "attributes":
                         if content.find("key"): # 調
                             piece.set_key(1, cur_num, int(content.key.fifths.string))
                         if content.find("divisions"): # divisions
-                            piece.set_divisions(1, int(content.divisions.string)) 
+                            piece.set_divisions(1, int(content.divisions.string))
                         if content.find("time"): # 拍子
                             piece.set_time(cur_num, int(content.time.beats.string),
                                            int(content.time.find("beat-type").string))
-
+                            
                     # テンポ (directionのうちmetronome, soundのみ対象)
                     if content.name == "direction":
                         flg = 0
                         if content.find("sound"):
-                            if "tempo" in content.sound:
+                            if "tempo" in content.sound.attrs:
                                 s_tempo = int(content.sound["tempo"])
                                 bpm     = s_tempo   # もしmetronomeがなかったらsound["tempo"]
                                 b_unit  = "quarter" # から表記の値を決める
@@ -322,7 +366,10 @@ def extract_music(soup):
                             chords[cur_time].set_bass(bs_step, bs_alt)
 
                     # 音符 (重なっている音は一番下以外無視，durationを持たない音符は無視)
-                    if content.name == "note" and not content.chord and content.duration:
+                    # 複数声部ある場合はvoice=1以外無視                    
+                    if content.name == "note" and not content.chord and content.duration \
+                       and (not content.voice or int(content.find("voice").string)==1):
+
                         # 長さ
                         note_dur = int(content.duration.string)
                         
@@ -340,6 +387,12 @@ def extract_music(soup):
                             note_step = "R" # 休符の階名はRとする
                             note_oct  = 0
                             note_alt  = 0
+
+                        # 付点の有無
+                        if content.find("dot"):
+                            dot = True
+                        else:
+                            dot = False
                             
                         # 連符かどうか
                         if content.find("time-modification"):
@@ -348,19 +401,22 @@ def extract_music(soup):
                             note_mod = False
                             
                         # 音符情報をリストに追加
-                        melody.append(Note(note_step, note_alt, note_oct, note_dur, cur_time, note_mod))
+                        melody.append(Note(note_step, note_alt, note_oct, note_dur, dot, cur_time, note_mod))
                         
                         #現在時刻を音符の長さ分だけ進める
                         cur_time += note_dur
 
-                    # 音符1個分の処理完了
-                # 1 content分の処理完了
+                        # 音符1個分の処理完了
+                    # 1 content分の処理完了
                 
-            # 1小節分の処理完了
+                # 1小節分の処理完了
+            # 1パート分の処理完了
             
-            # 現在の小節数を曲情報インスタンスに格納しておく
+            # 小節数を記録
             piece.measure_num = cur_num
-
+            # 曲の長さ (拍数 × divisions)を記録
+            piece.length = cur_time
+            
         #それ以外のパート
         #コードのみ拾ってくる
         else:
@@ -557,8 +613,9 @@ def WritePartList(score):
 
 
 # 小節に音符を書き込む
-# measure[xml.etree.ElementTree.SubElement], note_info[Note], divisions[int]
-def WriteNote(measure, note_info, divisions):
+# measure[xml.etree.ElementTree.SubElement],
+# note_info[Note], divisions[int], m_length[int]
+def WriteNote(measure, note_info, divisions, m_length):
 
     # <note>タグ生成
     note = ET.SubElement(measure, "note")
@@ -571,11 +628,11 @@ def WriteNote(measure, note_info, divisions):
         pitch = ET.SubElement(note, "pitch")
         step  = ET.SubElement(pitch, "step")
         step.text = note_info.step
-        octave = ET.SubElement(pitch, "octave")
-        octave.text = str(note_info.octave)
         if note_info.alter != 0:
             alter = ET.SubElement(pitch, "alter")
             alter.text = str(note_info.alter)
+        octave = ET.SubElement(pitch, "octave")
+        octave.text = str(note_info.octave)
 
     # 長さ <duration>
     duration = ET.SubElement(note, "duration")
@@ -586,11 +643,22 @@ def WriteNote(measure, note_info, divisions):
     voice.text = "1"
 
     # 表記上のタイプ <type>
-    n_type = ET.SubElement(note, "type")
-    n_type.text = note_info.get_note_type(divisions)
+    # 全休符かつ3拍以上の時 (個人的な経験則に基づく設定のため原則どおりでない可能性有り)
+    if note_info.step == "R" and note_info.duration == m_length \
+       and m_length / divisions >= 3:
+        pass
+    # それ以外
+    else:
+        n_type = ET.SubElement(note, "type")
+        n_type.text = note_info.get_note_type(divisions)
 
+    # 付点があれば <dot>
+    if note_info.dot:
+        dot = ET.SubElement(note, "dot")
+    
     # 連符であれば <time-modification>
     # 2拍3連と1拍3連のみなので既定の値を出力
+    # 若干修正の必要有り -> normal-type タグが必要
     if note_info.time_mod:
         t_mod = ET.SubElement(note, "time-modification")
         act_n = ET.SubElement(t_mod, "actual-notes")
@@ -673,18 +741,31 @@ def WriteScore(score, piece_info, melody, chords):
         i = 0
         
         # 小節ごと
-        for m in range(1, piece_info.measure_num + 1):
+        for m in range(0, piece_info.measure_num + 1):
+
+            # 0小節目の有無
+            ub_flag = False
+            if m == 0 and not piece_info.upbeat: # implicit=yesな0小節目がない
+                continue # 1小節目から
+            elif m == 0 and piece_info.upbeat: # implicit=yesな0小節目がある
+                ub_flag = True # 0小節目を書き込む
 
             # m小節目を生成 <measure>
-            measure = ET.SubElement(part, "measure", {"number":str(m)})
+            if ub_flag:
+                measure = ET.SubElement(part, "measure", {"number":str(m), "implicit":"yes"})
+            else:
+                measure = ET.SubElement(part, "measure", {"number":str(m)})
+            
 
-            # 調の変更，拍子，の変更があるか1小節目なら
-            if m in piece_info.key[p] or m in piece_info.time or m == 1:
+            # 調の変更，拍子，の変更があるか，最初の小節であれば
+            if m in piece_info.key[p] or m in piece_info.time \
+               or (m == 0 or (not ub_flag and m == 1)):
+
                 # <attributes>タグを生成
                 attributes = ET.SubElement(measure, "attributes")
                 
-                # <divisions>の設定 (1小節目のみ)
-                if m == 1:
+                # <divisions>の設定 (最初の小節のみ)
+                if m == 0 or (not ub_flag and m == 1):
                     tmp_div = piece_info.divisions[p]
                     divisions = ET.SubElement(attributes, "divisions")
                     divisions.text = str(tmp_div)
@@ -723,10 +804,18 @@ def WriteScore(score, piece_info, melody, chords):
                 sound = ET.SubElement(direction, "sound", {"tempo":str(piece_info.tempo[m][2])})
                 
 
+            # この小節の長さ
+            # implicit=yesの0小節目の場合
+            if ub_flag:
+                m_length = piece_info.upbeat_l
+            # それ以外    
+            # 4分音符の長さ * (4 / 拍子の分母) * 拍子の分子
+            else:
+                m_length = int (tmp_div * (4.0 / tmp_btype) * tmp_beats)
+                
             # 次の小節の開始時刻
-            # この小節の長さ = 4分音符の長さ * (4 / 拍子の分母) * 拍子の分子
-            next_m_time += int (tmp_div * (4.0 / tmp_btype) * tmp_beats)
-
+            next_m_time += m_length
+                
             # 次の小節の開始時刻まで
             while cur_time < next_m_time:
 
@@ -740,7 +829,7 @@ def WriteScore(score, piece_info, melody, chords):
                 # melodyのi番目の音符がこの時刻から始まる音符なら(必ずそうなるはず)
                 if cur_time ==  melody[i].time:
                     # 音符の情報を書き込む
-                    WriteNote(measure, melody[i], tmp_div)
+                    WriteNote(measure, melody[i], tmp_div, m_length)
 
                     # デバッグ用
                     #print "measure: %d" % m
@@ -755,7 +844,7 @@ def WriteScore(score, piece_info, melody, chords):
                 # もし違かったら
                 else:
                     # エラーを返す
-                    print "Error! Note time Error"
+                    print "Error! Note time error"
                     print "cur_time:%d, melody[%d].time:%d" % (cur_time, i, melody[i].time)                 
                     quit()
             # while ここまで

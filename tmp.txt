@@ -1,0 +1,1796 @@
+Process Completed
+#1
+loading ../../database/Songs/music_xml/00108.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/00108.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#4
+loading ../../database/Songs/music_xml/00332.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/00332.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#5
+loading ../../database/Songs/music_xml/00728.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/00728.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#8
+loading ../../database/Songs/music_xml/00969.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/00969.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#9
+loading ../../database/Songs/music_xml/01724.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/01724.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#13
+loading ../../database/Songs/music_xml/03365.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/03365.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#14
+loading ../../database/Songs/music_xml/03615.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/03615.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#15
+loading ../../database/Songs/music_xml/03625.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/03625.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#16
+loading ../../database/Songs/music_xml/05516.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/05516.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#18
+loading ../../database/Songs/music_xml/06245.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/06245.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#20
+loading ../../database/Songs/music_xml/06424.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/06424.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#26
+loading ../../database/Songs/music_xml/11036.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/11036.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#27
+loading ../../database/Songs/music_xml/11094.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/11094.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#32
+loading ../../database/Songs/music_xml/12027.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/12027.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#37
+loading ../../database/Songs/music_xml/13571.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/13571.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#38
+loading ../../database/Songs/music_xml/13612.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/13612.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#44
+loading ../../database/Songs/music_xml/15372.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/15372.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#45
+loading ../../database/Songs/music_xml/15603.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/15603.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#48
+loading ../../database/Songs/music_xml/17766.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/17766.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#56
+loading ../../database/Songs/music_xml/21481.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/21481.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#57
+loading ../../database/Songs/music_xml/21644.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/21644.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#59
+loading ../../database/Songs/music_xml/23160.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/23160.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#68
+loading ../../database/Songs/music_xml/27851.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/27851.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#71
+loading ../../database/Songs/music_xml/28548.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/28548.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#73
+loading ../../database/Songs/music_xml/29713.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/29713.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#78
+loading ../../database/Songs/music_xml/33225.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/33225.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#82
+loading ../../database/Songs/music_xml/34322.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/34322.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#83
+loading ../../database/Songs/music_xml/34364.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/34364.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#84
+loading ../../database/Songs/music_xml/34602.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/34602.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#85
+loading ../../database/Songs/music_xml/34830.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/34830.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#89
+loading ../../database/Songs/music_xml/35778.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/35778.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#90
+loading ../../database/Songs/music_xml/36488.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/36488.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#96
+loading ../../database/Songs/music_xml/39033.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/39033.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#99
+loading ../../database/Songs/music_xml/39724.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/39724.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#102
+loading ../../database/Songs/music_xml/40354.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/40354.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#104
+loading ../../database/Songs/music_xml/40744.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/40744.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#109
+loading ../../database/Songs/music_xml/42703.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/42703.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#112
+loading ../../database/Songs/music_xml/43061.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/43061.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#116
+loading ../../database/Songs/music_xml/43901.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/43901.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#117
+loading ../../database/Songs/music_xml/43987.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/43987.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#118
+loading ../../database/Songs/music_xml/44113.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/44113.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#121
+loading ../../database/Songs/music_xml/44454.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/44454.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#126
+loading ../../database/Songs/music_xml/45178.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/45178.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#129
+loading ../../database/Songs/music_xml/45762.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/45762.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#132
+loading ../../database/Songs/music_xml/45927.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/45927.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#133
+loading ../../database/Songs/music_xml/46429.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/46429.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#136
+loading ../../database/Songs/music_xml/46819.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/46819.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#142
+loading ../../database/Songs/music_xml/47402.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/47402.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#143
+loading ../../database/Songs/music_xml/47711.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/47711.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#146
+loading ../../database/Songs/music_xml/48785.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/48785.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#147
+loading ../../database/Songs/music_xml/48826.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/48826.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#151
+loading ../../database/Songs/music_xml/49127.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/49127.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#152
+loading ../../database/Songs/music_xml/49218.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/49218.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#153
+loading ../../database/Songs/music_xml/49385.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/49385.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#157
+loading ../../database/Songs/music_xml/49857.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/49857.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#159
+loading ../../database/Songs/music_xml/49952.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/49952.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#162
+loading ../../database/Songs/music_xml/50040.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/50040.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#163
+loading ../../database/Songs/music_xml/50599.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/50599.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#165
+loading ../../database/Songs/music_xml/50938.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/50938.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#172
+loading ../../database/Songs/music_xml/52089.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/52089.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#179
+loading ../../database/Songs/music_xml/52453.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/52453.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#180
+loading ../../database/Songs/music_xml/52454.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/52454.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#181
+loading ../../database/Songs/music_xml/52621.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/52621.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#182
+loading ../../database/Songs/music_xml/52675.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/52675.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#192
+loading ../../database/Songs/music_xml/53050.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53050.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#193
+loading ../../database/Songs/music_xml/53059.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53059.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#194
+loading ../../database/Songs/music_xml/53147.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53147.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#197
+loading ../../database/Songs/music_xml/53285.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53285.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#199
+loading ../../database/Songs/music_xml/53382.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53382.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#200
+loading ../../database/Songs/music_xml/53416.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53416.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#201
+loading ../../database/Songs/music_xml/53419.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53419.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#202
+loading ../../database/Songs/music_xml/53492.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53492.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#204
+loading ../../database/Songs/music_xml/53500.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53500.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#208
+loading ../../database/Songs/music_xml/53585.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53585.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#212
+loading ../../database/Songs/music_xml/53774.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53774.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#216
+loading ../../database/Songs/music_xml/53851.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53851.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#217
+loading ../../database/Songs/music_xml/53853.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53853.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#219
+loading ../../database/Songs/music_xml/53970.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53970.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#220
+loading ../../database/Songs/music_xml/53977.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/53977.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#224
+loading ../../database/Songs/music_xml/54129.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54129.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#230
+loading ../../database/Songs/music_xml/54186.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54186.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#231
+loading ../../database/Songs/music_xml/54188.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54188.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#234
+loading ../../database/Songs/music_xml/54221.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54221.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#236
+loading ../../database/Songs/music_xml/54258.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54258.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#237
+loading ../../database/Songs/music_xml/54277.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54277.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#238
+loading ../../database/Songs/music_xml/54287.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54287.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#239
+loading ../../database/Songs/music_xml/54323.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54323.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#241
+loading ../../database/Songs/music_xml/54332.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54332.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#243
+loading ../../database/Songs/music_xml/54372.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54372.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#247
+loading ../../database/Songs/music_xml/54424.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54424.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#248
+loading ../../database/Songs/music_xml/54427.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54427.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#249
+loading ../../database/Songs/music_xml/54428.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54428.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#251
+loading ../../database/Songs/music_xml/54433.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54433.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#252
+loading ../../database/Songs/music_xml/54501.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54501.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#253
+loading ../../database/Songs/music_xml/54502.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54502.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#255
+loading ../../database/Songs/music_xml/54530.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54530.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#256
+loading ../../database/Songs/music_xml/54542.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54542.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#257
+loading ../../database/Songs/music_xml/54546.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54546.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#259
+loading ../../database/Songs/music_xml/54575.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54575.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#260
+loading ../../database/Songs/music_xml/54578.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54578.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#263
+loading ../../database/Songs/music_xml/54583.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54583.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#264
+loading ../../database/Songs/music_xml/54584.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54584.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#268
+loading ../../database/Songs/music_xml/54641.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54641.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#269
+loading ../../database/Songs/music_xml/54642.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54642.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#271
+loading ../../database/Songs/music_xml/54650.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54650.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#272
+loading ../../database/Songs/music_xml/54651.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54651.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#273
+loading ../../database/Songs/music_xml/54653.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54653.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#275
+loading ../../database/Songs/music_xml/54660.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54660.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#276
+loading ../../database/Songs/music_xml/54661.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54661.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#279
+loading ../../database/Songs/music_xml/54733.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54733.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#285
+loading ../../database/Songs/music_xml/54830.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54830.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#293
+loading ../../database/Songs/music_xml/54873.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54873.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#295
+loading ../../database/Songs/music_xml/54875.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54875.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#296
+loading ../../database/Songs/music_xml/54876.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54876.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#298
+loading ../../database/Songs/music_xml/54914.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54914.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#299
+loading ../../database/Songs/music_xml/54915.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54915.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#303
+loading ../../database/Songs/music_xml/54919.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/54919.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#308
+loading ../../database/Songs/music_xml/55168.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/55168.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#309
+loading ../../database/Songs/music_xml/55257.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/55257.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#310
+loading ../../database/Songs/music_xml/55358.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/55358.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#311
+loading ../../database/Songs/music_xml/55482.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/55482.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#312
+loading ../../database/Songs/music_xml/55489.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/55489.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#314
+loading ../../database/Songs/music_xml/55572.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/55572.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#317
+loading ../../database/Songs/music_xml/55858.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/55858.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#319
+loading ../../database/Songs/music_xml/56170.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/56170.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#323
+loading ../../database/Songs/music_xml/56692.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/56692.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#326
+loading ../../database/Songs/music_xml/56956.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/56956.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#327
+loading ../../database/Songs/music_xml/57083.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/57083.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#328
+loading ../../database/Songs/music_xml/57442.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/57442.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#330
+loading ../../database/Songs/music_xml/57690.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/57690.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#332
+loading ../../database/Songs/music_xml/57854.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/57854.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#335
+loading ../../database/Songs/music_xml/57979.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/57979.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#346
+loading ../../database/Songs/music_xml/58330.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58330.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#347
+loading ../../database/Songs/music_xml/58333.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58333.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#353
+loading ../../database/Songs/music_xml/58519.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58519.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#362
+loading ../../database/Songs/music_xml/58648.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58648.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#365
+loading ../../database/Songs/music_xml/58679.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58679.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#371
+loading ../../database/Songs/music_xml/58750.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58750.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#374
+loading ../../database/Songs/music_xml/58783.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58783.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#377
+loading ../../database/Songs/music_xml/58831.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58831.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#378
+loading ../../database/Songs/music_xml/58866.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58866.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#379
+loading ../../database/Songs/music_xml/58931.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58931.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#381
+loading ../../database/Songs/music_xml/58951.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/58951.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#387
+loading ../../database/Songs/music_xml/59008.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59008.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#391
+loading ../../database/Songs/music_xml/59078.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59078.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#392
+loading ../../database/Songs/music_xml/59079.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59079.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#395
+loading ../../database/Songs/music_xml/59127.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59127.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#397
+loading ../../database/Songs/music_xml/59131.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59131.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#398
+loading ../../database/Songs/music_xml/59133.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59133.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#399
+loading ../../database/Songs/music_xml/59143.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59143.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#401
+loading ../../database/Songs/music_xml/59199.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59199.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#402
+loading ../../database/Songs/music_xml/59201.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59201.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#403
+loading ../../database/Songs/music_xml/59255.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59255.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#409
+loading ../../database/Songs/music_xml/59321.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59321.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#410
+loading ../../database/Songs/music_xml/59346.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59346.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#413
+loading ../../database/Songs/music_xml/59403.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59403.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#417
+loading ../../database/Songs/music_xml/59418.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59418.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#418
+loading ../../database/Songs/music_xml/59448.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59448.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#420
+loading ../../database/Songs/music_xml/59519.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59519.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#421
+loading ../../database/Songs/music_xml/59520.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59520.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#423
+loading ../../database/Songs/music_xml/59570.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59570.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#425
+loading ../../database/Songs/music_xml/59596.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59596.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#428
+loading ../../database/Songs/music_xml/59607.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59607.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#433
+loading ../../database/Songs/music_xml/59717.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59717.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#434
+loading ../../database/Songs/music_xml/59724.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59724.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#436
+loading ../../database/Songs/music_xml/59728.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59728.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#437
+loading ../../database/Songs/music_xml/59734.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59734.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#439
+loading ../../database/Songs/music_xml/59795.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59795.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#441
+loading ../../database/Songs/music_xml/59862.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59862.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#445
+loading ../../database/Songs/music_xml/59964.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/59964.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#448
+loading ../../database/Songs/music_xml/60015.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60015.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#450
+loading ../../database/Songs/music_xml/60031.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60031.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#455
+loading ../../database/Songs/music_xml/60152.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60152.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#460
+loading ../../database/Songs/music_xml/60294.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60294.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#463
+loading ../../database/Songs/music_xml/60334.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60334.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#464
+loading ../../database/Songs/music_xml/60360.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60360.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#465
+loading ../../database/Songs/music_xml/60430.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60430.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#466
+loading ../../database/Songs/music_xml/60433.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60433.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#473
+loading ../../database/Songs/music_xml/60608.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60608.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#479
+loading ../../database/Songs/music_xml/60741.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60741.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#480
+loading ../../database/Songs/music_xml/60785.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60785.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#484
+loading ../../database/Songs/music_xml/60901.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60901.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#486
+loading ../../database/Songs/music_xml/60904.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60904.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#488
+loading ../../database/Songs/music_xml/60972.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/60972.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#490
+loading ../../database/Songs/music_xml/61010.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/61010.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+#491
+loading ../../database/Songs/music_xml/61017.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/61017.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet
+--
+Process Completed
+#494
+loading ../../database/Songs/music_xml/61091.xml ...
+extracting melody and chords from ../../database/Songs/music_xml/61091.xml ...
+writing identification
+writing defaults settings
+writing part list
+writing melody and chords
+Error! Cannot use tuplet except quarter-note triplet and eigths-note triplet

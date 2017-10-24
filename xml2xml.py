@@ -29,7 +29,6 @@ def finalize(score):
 
 if __name__ == "__main__":
 
-    
     ###### 読み込み ######
 
     #引数の取得
